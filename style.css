@@ -1,0 +1,40 @@
+body {
+    max-width: 120rem;
+    font-family: 'Spartan', sans-serif;
+}
+h2{
+    text-align: center;
+}
+h3 {
+    color: #B578BB;
+    text-align: center;
+}
+h4{
+    text-align: center;
+}
+li {
+    list-style: none;
+}
+progress {
+    width: 100%;
+    max-width: 72px;
+    height: 12px;
+    background: #18498a;
+    border-radius: 3px;
+}
+
+.contenedor {
+    width: 75%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.biggercaja {
+    display: flex;
+}
+
+.caja {
+    width: 50%;
+    flex-direction: row;
+    text-align: center;
+}
